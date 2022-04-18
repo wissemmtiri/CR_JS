@@ -1,0 +1,17 @@
+td{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Open Sans','Sans Serif';
+}
+
+h2{
+    font-size: 70px;
+    font-family: 'Open Sans','Sans Serif';
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}

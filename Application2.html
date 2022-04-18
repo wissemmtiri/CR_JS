@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A P P L I C A T I O N 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Open+Sans:wght@800&family=Ramaraja&family=Roboto+Slab:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <div id="Top_Container">
+        <h3 class="title">MINI WORD</h3>
+        <ul class="navbar">
+            <li><a href="#">Fichier</a></li>
+            <li><a href="#">Mise En Page</a></li>
+            <li><a href="#" id="active">Edit</a></li>
+            <li><a href="#">Print</a></li>
+        </ul>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <textarea id="textarea" placeholder="Type your text here.." autofocus></textarea>
+                </td>
+                <td>
+                    <p class="description">Choose the color</p>
+                    <input type="color" id="color">
+                    <br>
+                    <p class="description">Choose the size</p>
+                    <input type="number" id="size">
+                    <br>
+                    <p class="description">Choose the font</p>
+                    <select id="font">
+                        <optgroup label="Serif">
+                            <option>Merriweather</option>
+                            <option>Roboto Slab</option>
+                            <option>Ramaraja</option>
+                        </optgroup>
+                        <optgroup label="Sans-Serif">
+                            <option>Arial</option>
+                            <option>Ubuntu</option>
+                            <option>Anton</option>
+                            <option>Open Sans</option>
+                        </optgroup>
+                    </select>
+                    <br><input type="button" value="Change" id="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="Application2.js"></script>
+</body>
+
+</html>

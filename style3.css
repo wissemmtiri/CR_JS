@@ -1,0 +1,16 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
+#add{
+    margin-left: 65px;
+    width: 150px;
+}
+#Description{
+    resize: none;
+}
